@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^record/(.*)$ record.php?id=$1 [QSA]
